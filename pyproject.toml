@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "mlops-exercise-01"
+version = "0.1.0"
+description = ""
+authors = ["Erick Okal <bobbydasilva98@gmail.com>"]
+license = "MIT"
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+pytest = "^8.4.1"
+black = "^25.1.0"
+mypy = "^1.17.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
