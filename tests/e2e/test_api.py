@@ -7,5 +7,5 @@ client = TestClient(app)
 
 
 def test_healthy_endpoint():
-    response = client.get("/")
+    response = client.get("/health")
     assert response.status_code == status.HTTP_200_OK

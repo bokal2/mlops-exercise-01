@@ -10,6 +10,6 @@ def calculate_hypotenus(a: int, b: int) -> float:
     return round(c, 2)
 
 
-@app.get("/")
-def healthy():
+@app.get("/health")
+def health_check():
     return {"status": "Running"}
