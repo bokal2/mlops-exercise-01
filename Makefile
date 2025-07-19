@@ -11,7 +11,7 @@ help:
 	@echo '  make fix      - Fixes coding standards problems'
 
 install:
-	poetry install
+	poetry install --no-root
 
 shell:
 	poetry shell
