@@ -8,6 +8,9 @@ readme = "README.md"
 
 [tool.poetry.dependencies]
 python = "^3.12"
+uvicorn = {extras = ["standard"], version = "^0.35.0"}
+fastapi = "^0.116.1"
+httpx = "^0.28.1"
 
 
 [tool.poetry.group.dev.dependencies]
