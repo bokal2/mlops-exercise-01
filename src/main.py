@@ -13,3 +13,7 @@ def calculate_hypotenus(a: int, b: int) -> float:
 @app.get("/health")
 def health_check():
     return {"status": "Running"}
+
+@app.get("/test")
+def test():
+    return ""
